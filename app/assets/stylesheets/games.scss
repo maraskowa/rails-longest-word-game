@@ -1,0 +1,30 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.form {
+  margin-left: 60px;
+}
+
+.letter {
+  border: solid 1px grey;
+  background-color: #ECBD54;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.long-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  height: 100px;
+  align-items: center;
+}
+
+p {
+  margin-left: 25px;
+}

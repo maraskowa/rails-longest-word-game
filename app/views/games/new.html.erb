@@ -1,0 +1,53 @@
+<div>
+  <h1>✨New Game✨</h1>
+  <p>What's the longest word you can build with those letters?</p>
+</div>
+
+<div>
+  <div class="long-container">
+  <div class="letter">
+    <%= @string[0]%>
+  </div>
+  <div class="letter">
+    <%= @string[1] %>
+  </div>
+  <div class="letter">
+    <%= @string[2] %>
+  </div>
+  <div class="letter">
+    <%= @string[3] %>
+  </div>
+  <div class="letter">
+    <%= @string[4] %>
+  </div>
+  <div class="letter">
+    <%= @string[5] %>
+  </div>
+  <div class="letter">
+    <%= @string[6] %>
+  </div>
+  <div class="letter">
+    <%= @string[7] %>
+  </div>
+  <div class="letter">
+    <%= @string[8] %>
+  </div>
+  <div class="letter">
+    <%= @string[9] %>
+  </div>
+  <div class="letter">
+    <%= @string[10] %>
+  </div>
+</div>
+  <div>
+    <div class="form">
+      <form action="/score" method="post" class="form-inline">
+        <input type="text" name="score">
+        <input type="submit" value="Submit!">
+      </form>
+    </div>
+    <br>
+    <%= link_to "Testing", score_path %>
+</div>
+</div>
+
